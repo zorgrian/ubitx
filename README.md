@@ -1,10 +1,13 @@
-#NOTICE
+# NOTICE INTENTION TO HACK by M0OOZ
 ----------------------------------------------------------------------------
 - Now Release Version 1.08 on my blog (http://www.hamskey.com)
 - You can download and compiled hex file and uBITX Manager application on release section (https://github.com/phdlee/ubitx/releases)
 - For more information, see my blog (http://www.hamskey.com)
 
 http://www.hamskey.com
+
+### THIS IS THE BASIS OF A NUMBER OF HACKS 
+This includes a diagnostic tool for uBITX hardware that does not appear to function corectly 
 
 Ian KD8CEC
 kd8cec@gmail.com
