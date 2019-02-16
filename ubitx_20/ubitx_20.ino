@@ -308,20 +308,43 @@ byte delay_background(unsigned delayTime, byte fromType){ //fromType : 4 autoCWK
  
 
 /**
- * Select the properly tx harmonic filters
- * The four harmonic filters use only three relays
- * the four LPFs cover 30-21 Mhz, 18 - 14 Mhz, 7-10 MHz and 3.5 to 5 Mhz
- * Briefly, it works like this, 
- * - When KT1 is OFF, the 'off' position routes the PA output through the 30 MHz LPF
- * - When KT1 is ON, it routes the PA output to KT2. Which is why you will see that
- *   the KT1 is on for the three other cases.
- * - When the KT1 is ON and KT2 is off, the off position of KT2 routes the PA output
- *   to 18 MHz LPF (That also works for 14 Mhz) 
- * - When KT1 is On, KT2 is On, it routes the PA output to KT3
- * - KT3, when switched on selects the 7-10 Mhz filter
- * - KT3 when switched off selects the 3.5-5 Mhz filter
- * See the circuit to understand this
- */
+* Rewrite of the explanation by M0OOZ
+* How the uBITX harmonic filters should be selected in V3 & V4 boards
+* FILTERS FOR UBITX
+*
+* The four harmonic filters use only three relays which are denoted as KT1, KT2 & KT3 
+*
+* The four LPFs cover 
+*
+* 1) 21 - 30  MHz, 
+*
+* 2) 14 - 18  MHz, 
+*
+* 3) 7 - 10 MHz,
+*
+* 4) 3.5 to 5 MHz
+*
+* Briefly, it should work like this:
+*
+* 1) When KT1 is in the OFF state, the 'off' position then routes the PA output through the 30 MHz LPF
+*
+* 2) When KT1 is ON, it routes the PA output into KT2. Which is why you will see that:
+*
+* 3) The KT1 relay is switched on for the three other cases.
+*
+* 4) When the KT1 is ON and KT2 is off, the off position of KT2 routes the PA output
+* to the 18 MHz LPF (This is also used for the 14 MHz band as per above)
+*
+* 5) When KT1 is On AND KT2 is On, this routes the PA output to KT3
+*
+* 6) When KT3, is switched ON, this selects the 7-10 MHz filter
+*
+* 7) When KT3 is switched OFF, this selects the 3.5 - 5 MHz filter
+*
+* And that is how it should work. Except on the V3, & V4 boards the relays don't have ground plane, 
+* and they also radiate RF into the surrounding circuitry! This may be solved in the V5 board?
+* Note: See the circuit to understand this
+*/
 
 void setTXFilters(unsigned long freq){
 #ifdef USE_CUSTOM_LPF_FILTER 
