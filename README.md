@@ -6,7 +6,7 @@
 
 I have made some clarification of the comments within the code. The first is the explanation on how the filter switching should work for the V3 and V4 boards. This explanation is also available as a markdown document above the uBITX firmware folder, together with schematics, in .PNG format, of the low pass filters refered to. 
 
-I will continue with these commits, as I believe this helps clarify functionality or in other words 'how it works'
+I will continue with these commits, as I believe this helps clarify functionality or in other words, it helps one understand 'how it works'
 
 ### THE SOFTWARE TOOLS FOR TESTING uBITX
 
