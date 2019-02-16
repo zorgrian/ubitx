@@ -7,6 +7,7 @@
 #### FILTERS FOR UBITX
 
 **The four harmonic filters use only three relays which are denoted as KT1, KT2 & KT3**
+It is the states of these three relays, (ON/ OFF) in each case, that deturmins which filter is selected to have the PA signal passed though to ensure attenuation at appropriate frequencies.
 
 #### The four LPFs cover 
 1. 21 - 30  MHz, 
