@@ -20,7 +20,7 @@ It is the states of these three relays, (ON/ OFF) in each case, that determines 
 1. When KT1 is in the OFF state, the 'off' position then routes the PA output through the 30 MHz LPF
 2. When KT1 is ON, it routes the PA output into KT2. Which is why you will see that:
 3. The KT1 relay is switched on for the three other cases.
-4. When the KT1 is ON and KT2 is off, the off position of KT2 routes the PA output  to the 18 MHz LPF (This is also used for the 14 MHz band as per above)
+4. When KT1 is ON *and* KT2 is off, the off position of KT2 routes the PA output  to the 18 MHz LPF (This is also used for the 14 MHz band as per above)
 5. When KT1 is On AND KT2 is On, this routes the PA output to KT3
 6. When KT3, is switched ON, this selects the 7-10 MHz filter.
 7. When KT3 is switched OFF, this selects the 3.5 - 5 MHz filter
