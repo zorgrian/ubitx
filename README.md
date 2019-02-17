@@ -4,6 +4,8 @@
 
 ### THE FIRST COMMITS ARE FOR READABILITY
 
+>Readability is the ease with which a reader can understand a written text. In natural language, the readability of text depends on its content (the complexity of its vocabulary and syntax) and its presentation (such as typographic aspects like font size, line height, and line length).
+
 I have made some clarification of the comments within the code. The first is the explanation on how the filter switching should work for the V3 and V4 boards. This explanation is also available as a markdown document above the uBITX firmware folder (ubitx_20), together with schematics, in .PNG format, of the low pass filters refered to. 
 
 I will continue with these commits, as I believe this helps clarify functionality or in other words, it helps one understand 'how it works'
