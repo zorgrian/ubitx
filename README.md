@@ -10,7 +10,11 @@ I will continue with these commits, as I believe this helps clarify functionalit
 
 ### THE SOFTWARE TOOLS FOR TESTING uBITX
 
-I have written code based upon this code that helps diagnose problems on the uBITX V4 board that I received. I intend to upload these tools to git-hub as soon as I have tidied the code up a little & have time to do this. 
+I have written code based upon this code that helps diagnose problems on the uBITX V4 board that I received. I intend to upload these tools to git-hub as soon as I have tidied the code up a little & have time to do this.
+
+#### For the time being, the following is still true
+
+As yet I have made no code changes to the 'CEC' firmware, so you may use the hex file, which contains the same functionality as the code is this fork of the repository. However, this may change and when the hex file does differ from the source in this fork, I will remove the links below. 
 
 - Now Release Version 1.1 on blog (http://www.hamskey.com)
 - You can download and compiled hex file and uBITX Manager application on release section (https://github.com/phdlee/ubitx/releases)
