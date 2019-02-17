@@ -8,7 +8,7 @@
 
 **The four harmonic filters use only three relays which are denoted as KT1, KT2 & KT3**
 
-It is the states of these three relays, (ON/ OFF) in each case, that determines which filter is selected to have the PA signal passed though to ensure attenuation of harmonics at appropriate frequencies.
+It is the states of these three relays, (ON/ OFF) in each case, that determines which filter is selected to have the PA signal passed though to ensure attenuation of appropriate harmonics at selected frequencies.
 
 #### The four LPFs cover 
 1. 21 - 30  MHz, 
