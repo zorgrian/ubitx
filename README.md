@@ -16,16 +16,24 @@ I have written code based upon this code that helps diagnose problems on the uBI
 
 **As yet I have made no code changes to the 'CEC' firmware, so you may use the hex file, which contains the same functionality as the code is this fork of the repository. However, this may change and when the hex file does differ from the source in this fork, I will remove the links below.** 
 
+---
+
 - Now Release Version 1.1 on blog (http://www.hamskey.com)
 - You can download and compiled hex file and uBITX Manager application on release section (https://github.com/phdlee/ubitx/releases)
 - For more information, see my blog (http://www.hamskey.com)
 
 http://www.hamskey.com
 
+---
+
 ### THIS IS THE BASIS OF A NUMBER OF HACKS 
 
 This includes a diagnostic tool for uBITX hardware that does not appear to function corectly 
 
+Zorgrian M0OOZ
+zorgrian@gmx.com
+
+---
 Ian KD8CEC
 kd8cec@gmail.com
 
