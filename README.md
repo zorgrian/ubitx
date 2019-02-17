@@ -8,7 +8,7 @@ I have made some clarification of the comments within the code. The first is the
 
 I will continue with these commits, as I believe this helps clarify functionality or in other words, it helps one understand 'how it works'
 
-### THE SOFTWARE TOOLS FOR TESTING uBITX
+### SOFTWARE TOOLS FOR TESTING uBITX
 
 I have written code based upon this code that helps diagnose problems on the uBITX V4 board that I received. I intend to upload these tools to git-hub as soon as I have tidied the code up a little & have time to do this.
 
