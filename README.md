@@ -2,7 +2,7 @@
 
 ------
 
-### FIRST COMMITS ARE COSMETIC 
+### THE FIRST COMMITS ARE FOR READABILITY
 
 I have made some clarification of the comments within the code. The first is the explanation on how the filter switching should work for the V3 and V4 boards. This explanation is also available as a markdown document above the uBITX firmware folder (ubitx_20), together with schematics, in .PNG format, of the low pass filters refered to. 
 
