@@ -25,6 +25,13 @@ It is the states of these three relays, (ON/ OFF) in each case, that determines 
 6. When KT3, is switched ON, this selects the 7-10 MHz filter.
 7. When KT3 is switched OFF, this selects the 3.5 - 5 MHz filter
 
+### Realy states
+- Frequency >   21.000Mhz   : TXA Off, TXB Off, TXC Off
+- Frequency >=  14.000Mhz   : TXA  On, TXB Off, TXC Off
+- Frequency >=  7.000Mhz    : TXA  On, TXB On, TXC Off
+- Frequency >=  0Mhz        : TXA  On, TXB On, TXC On
+
+
 #### NOTE:
 And that is how it should work. Except on the V3, & V4 boards the relays lack ground plane, and the type of relay chosen also allows radiation of RF into the surrounding circuitry. This may be solved in the V5 board?
 
