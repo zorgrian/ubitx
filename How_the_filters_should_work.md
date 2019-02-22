@@ -25,7 +25,7 @@ It is the states of these three relays, (ON/ OFF) in each case, that determines 
 6. When KT3, is switched ON, this selects the 7-10 MHz filter.
 7. When KT3 is switched OFF, this selects the 3.5 - 5 MHz filter
 
-### Realy states
+### Relay states
 - Frequency >   21.000Mhz   : TXA Off, TXB Off, TXC Off
 - Frequency >=  14.000Mhz   : TXA  On, TXB Off, TXC Off
 - Frequency >=  7.000Mhz    : TXA  On, TXB On, TXC Off
