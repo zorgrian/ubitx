@@ -5,7 +5,9 @@
 ## Please see the .PNG files showing the schematic of these filters.
 NOTE: **3.5 to 5 MHz** this filter is a problem if you use this filter on the 80-meter band above 3.5 MHz, as the second harmonic is over attenuated!
 
-e.g. tune at 3.8 MHz (Europe 3.500–3.800) and the results is a whopping 10 dB cut!
+e.g. tune at 3.8 MHz (Europe 3.500–3.800) and the result is a whopping 10 dB cut! Para los Americanos, el problema es aun mas...!
+
+Note: If we then use this filter at 5 MHz we do see a 36dB cut! (Nasty)... However al is solved in V5 where you can just jack up the power on the finals to compensate? (Hmmm not too sure that this is good practice)
 
 ### How the uBITX harmonic filters should be selected in V3 & V4 boards
 
